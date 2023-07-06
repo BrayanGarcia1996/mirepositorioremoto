@@ -1,0 +1,208 @@
+h1 {
+    color: blue;}
+
+*{
+    margin: 0;
+        padding: 0;}
+
+h1:hover{
+    text-decoration: underline;
+        font-size: 55px;
+            transition: 2s;
+                background-color: chartreuse;}
+
+.text-1 {
+    color: brown;
+        font-size: 18px;}
+
+.text-2 {
+    color: blueviolet;
+        font-size: 18px;}
+
+.text-3 {
+    color: darkgreen;
+        font-size: 18px;}
+
+body{
+    background-image: url(https://images.unsplash.com/photo-1621146027714-e8921770f8d0?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxzZWFyY2h8MTh8fElNQUdFTiUyMERFJTIwRk9ORE98ZW58MHx8MHx8fDA%3D&auto=format&fit=crop&w=400&q=60);
+        background-repeat:no-repeat ;
+            background-size: cover;}
+
+.text {
+    color: gold;
+        font-size: 30px;
+            background-color: rgb(138, 71, 71);}   
+
+.img {
+    width: 150px;
+        height: 150px; }
+
+
+.container-nav {
+    display: flex;
+         padding: 10px;
+            height: 50px;
+                background-color: black;}
+  
+.navbar {
+    display: flex;
+         justify-content: space-between;
+            width: 100%;}
+  
+.brand {
+    display: flex;
+         align-items: center;}
+  
+li > a {
+    padding: 8px 24px;}
+  
+li {
+    list-style-type: none;}
+  
+a {
+    color: white;
+        text-decoration: none;}
+  
+.nav-links {
+    display: flex;
+        align-items: center;}
+
+.button-menu-toggle {
+        display: none;}
+
+.button-menu-toggle {
+    display: none;}
+
+@media (max-width: 768px) {
+    .column {
+        flex: 100%;}
+
+.nav-links {
+      display: none;}
+  
+.button-menu-toggle {
+      display: block;
+             background-color: white;
+                border: none;
+                     border-radius: 50px;
+                         padding: 0 24px;
+                            font-family: monospace;
+                                  font-weight: bold;
+                                    font-size: 20px;}
+
+.nav-links.nav-links-responsive {
+    position: absolute;
+        display: flex;
+            background-color: rgba(20, 20, 20, 0.95);
+                width: 100%;
+                     height: 100%;
+                        top: 70px;
+                            left: 0;
+                                flex-direction: column;
+                                    padding-top: 200px;
+                                        align-items: center;
+                                             gap: 70px;
+                                                 font-size: 40px;}}
+  
+
+.imagen {
+    display: flex;}
+
+.img2 {
+    border-radius: 30px;
+        width: 180px;
+            height: 180px;
+                margin-left: 88px;
+                    margin-top: 20px;
+                        border-style: solid;
+                            border-color: yellow;}
+
+.img1 {
+    border-radius: 30px;
+        width: 180px;
+            margin-left: 85px;
+                 margin-top: 20px;
+                    border-style: solid;
+                        border-color: yellow;}
+
+.img3 {
+    border-radius: 30px;
+        width: 180px;
+            margin-left: 80px;
+                margin-top: 20px;
+                    border-style: solid;
+                        border-color: yellow;}
+
+.parrafo {
+    margin: 20px;
+        color: white;}
+
+.a {
+    color: white;}
+
+.b {
+    color: white;}
+
+.c {
+    color: white;}
+
+.d {
+    color: white;}
+
+.e {
+    color: white;}
+
+.conteiner {
+    color: white;}
+
+.container1 {
+    color: blue;
+        background-color: chartreuse;
+            text-align: center;} 
+
+.p1 {
+    text-align: center;}
+
+.p2 {
+    text-align: center;}
+
+.p3 {
+    text-align: center;}
+
+.caja {
+    font-family: sans-serif;
+        font-size: 20px;
+            font-weight: 400;
+                color: black;
+                    background: #ee0467;}
+
+.video {
+    width: 20px;
+        margin-left: 290px;
+            margin-top: 20px;}
+
+.pie-de-pagina {
+    color: white;}  
+
+.etiqueta {
+    text-align: center;}
+
+footer {
+    margin-top: 200px;
+    text-align: center;
+    
+}
+
+main {
+    text-align: center;
+}
+
+
+
+
+
+
+
+
+
+
